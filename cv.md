@@ -37,6 +37,9 @@ console.log(squareSum([1,2]));
 Learning basic theory books in progress (like https://learn.javascript.ru/)
 
 ## Languages
-* English - according to online test at www.efset.org: >Your score indicates that your level is in the range of C1 ADVANCED to C2 PROFICIENT
-![test](https://i.ibb.co/x5tjKWF/eng.jpg)
+* English - according to online test at www.efset.org: > Your score indicates that your level is in the range of C1 ADVANCED to C2 PROFICIENT
+
+
+![englishtest](https://i.ibb.co/x5tjKWF/eng.jpg)
+
 * Russian - native
