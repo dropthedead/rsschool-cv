@@ -7,7 +7,7 @@
 
 ## About myself
 I started my career as Marine Engineer, worked in there for over 6 years, travelling across the whole world
-on different vessels with different nations and people, which helped a lot with english skill and me strong
+on different vessels with different nations and people, which helped a lot with english skill and made me strong
 and extremely stress-resistant.
 
 But since high school I used to spend a lot of time with my PC, wondering some day it may become my job.
