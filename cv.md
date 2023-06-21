@@ -4,6 +4,7 @@
 * **Phone:** +79528674732
 * **Email:** dropdeaddropdead@yandex.ru
 * **Telegram:** @drpdd
+* **Discord:** dropdead88
 
 ## About myself
 I started my career as Marine Engineer, worked in there for over 6 years, travelling across the whole world
