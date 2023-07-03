@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Montserrat";
-  src: url("/assets/Montserrat/Montserrat-Regular.ttf");
+  src: url("./assets/Montserrat/Montserrat-Regular.ttf");
 }
 :root {
   --main-bg-color: #ba9593;
