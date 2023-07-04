@@ -3,7 +3,7 @@
   src: url("./assets/Montserrat/Montserrat-Regular.ttf");
 }
 :root {
-  --main-bg-color: #ba9593;
+  --main-bg-color: #fbfbf2;
 }
 html {
   min-height: 100%;
@@ -16,14 +16,22 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100%;
-  background: linear-gradient(to top left, rgb(43, 94, 101), pink);
+  background-color: #e5e6e4;
   font-family: "Montserrat";
-  background-color: darkcyan;
 }
 main {
   min-height: 100%;
   display: flex;
   flex-direction: row;
+}
+.header__cv {
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "Montserrat";
+  text-align: center;
+  padding: 20px;
+  border-width: 5px 5px 5px 5px;
+  border-style: outset;
 }
 .link {
   color: black;
@@ -38,9 +46,18 @@ h2 {
   background-color: var(--main-bg-color);
   font-size: 24;
 }
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+}
+.contacts__spisok {
+  display: flex;
+  flex-wrap: nowrap;
+}
 .contacts {
   display: inline-block;
-  background-color: rgb(139, 228, 228);
+  background-color: #fbfbf2;
   font-size: 24pt;
 }
 .image {
@@ -58,12 +75,12 @@ h2 {
 .second {
   flex-grow: 1;
   padding: 20px;
-  background-color: #edffab;
+  background-color: #a6a2a2;
   flex-basis: 70%;
 }
 pre {
-  color: black;
-  background-color: white;
+  color: #e5e6e4;
+  background-color: #847577;
   font-size: 14pt;
   text-align: left;
 }
@@ -76,6 +93,7 @@ pre {
   margin-top: 12px;
   height: 20%;
   width: 30%;
+  border-radius: 33%;
 }
 .spisok li {
   margin-bottom: 10px;
@@ -85,7 +103,7 @@ pre {
 }
 footer {
   padding: 10px 20px;
-  background: #11909471;
+  background: #847577;
   color: white;
 }
 .image3 {
