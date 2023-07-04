@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <link rel="stylesheet" href="./style.css" />
     <meta charset="utf-8" />
@@ -8,20 +8,22 @@
 
   <body>
     <div class="container">
-      <header>My CV</header>
+      <header class="header__cv">My CV</header>
       <main>
         <div class="first">
           <h1><i class="fa-solid fa-user fa-beat"></i>Ivan Tsebro</h1>
-          <div><img class="image" src="./assets/photo1.png" /></div>
+          <div>
+            <img class="image" src="./assets/photo1.png" alt="moi ebalnik" />
+          </div>
           <h2 class="contacts">Contacts</h2>
           <ul>
-            <li>
+            <li class="contacts__spisok">
               <i class="fa-solid fa-phone fa-beat"></i>
               <a class="link" href="tel:+79528674732" target="_blank"
                 >+79528674732</a
               >
             </li>
-            <li>
+            <li class="contacts__spisok">
               <i class="fa-solid fa-envelope fa-beat"></i>
               <a
                 class="link"
@@ -30,13 +32,13 @@
                 >dropdeaddropdead@yandex.ru
               </a>
             </li>
-            <li>
+            <li class="contacts__spisok">
               <i class="fa-brands fa-telegram fa-beat"></i>
-              <a class="link" href="https:/t.me/drpdd" target="_blank"
+              <a class="link" href="https://t.me/drpdd" target="_blank"
                 >@drpdd</a
               >
             </li>
-            <li>
+            <li class="contacts__spisok">
               <i class="fa-brands fa-discord fa-beat"></i
               ><a
                 class="link"
@@ -71,7 +73,7 @@
           <code>
 function squareSum(numbers){
   let sum = 0;
-  for (let i = 0; i < numbers.length; i++) {
+  for (let i = 0; i &lt; numbers.length; i++) {
     sum += numbers[i]**2;
   }
   return sum;
@@ -91,18 +93,26 @@ console.log(squareSum([1,2]));</code
                 ADVANCED to C2 PROFICIENT»
               </span>
 
-              <img class="image2" src="./assets/eng.jpg" />
+              <img
+                class="image2"
+                src="./assets/eng.jpg"
+                alt="english test score"
+              />
             </li>
           </ul>
         </div>
       </main>
       <footer class="footer">
         <div class="flex-footer">
-          <img class="image3" src="./assets/rs_school_js.svg" />
-          <a href="https://rs.school.ru/js/">RsSchool</a>
+          <a href="https://rs.school.ru/js/"
+            ><img
+              class="image3"
+              src="./assets/rs_school_js.svg"
+              alt="school logo"
+          /></a>
         </div>
+        <div><time datetime="2023-07-04"> 4 Июля 2023</time></div>
         <div>
-          <time datetime="2023-07-03"> 7 Июля 2023</time>
           <i class="fa-brands fa-github fa-beat"></i
           ><a href="https://github.com/dropthedead">GitHub</a>
         </div>
