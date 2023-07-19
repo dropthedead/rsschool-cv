@@ -69,7 +69,7 @@
           Library
         </div>
       </div>
-      <div class="about">
+      <div class="about" id="about">
         <h2 class="about__text">About</h2>
         <div class="about__line"></div>
         <p class="about__description">
@@ -127,7 +127,7 @@
           </div>
         </div>
       </div>
-      <div class="favorite">
+      <div class="favorite" id="favorites">
         <h2 class="favorite__text">Favorites</h2>
         <div class="favorite__line"></div>
         <div class="favorite__season">Pick favorites of season</div>
@@ -197,9 +197,7 @@
               recovering from a breakup moves to a quaint town in upstate New
               York and befriends a beautiful witch.
             </div>
-            <button class="book_buy_btn" name="book_buy">
-              <span class="buy_btn_text">Buy</span>
-            </button>
+            <button class="book_buy_btn" name="book_buy">Buy</button>
             <img
               class="book_image"
               src="./assets/cackle.png"
@@ -228,9 +226,7 @@
               into something of divine significance—an inspired introduction to
               Dante's main themes.
             </div>
-            <button class="book_buy_btn" name="book_buy">
-              <span class="buy_btn_text">Buy</span>
-            </button>
+            <button class="book_buy_btn" name="book_buy">Buy</button>
             <img class="book_image" src="./assets/dante.png" alt="book_dante" />
           </section>
           <section class="book_description">
@@ -253,8 +249,8 @@
               family) exploring how the Windsors have evolved and thrived as the
               modern world has changed around them.
             </div>
-            <button class="book_buy_btn" name="book_buy">
-              <span class="buy_btn_text">Buy</span>
+            <button class="book_buy_btn _own" name="book_buy" disabled>
+              Own
             </button>
             <img
               class="book_image"
@@ -263,8 +259,327 @@
             />
           </section>
         </div>
+        <div class="books_section _invis">
+          <section class="book_description">
+            <span class="staff_picks">Staff Picks</span>
+            <span class="staff_picks__line">
+              <hr
+                class="book_line"
+                size="1px solid"
+                width="60px"
+                align="left"
+                color="#BB945F"
+              />
+            </span>
+            <div class="book_title_author">
+              <h3 class="book_title">THE BODY</h3>
+              <h3 class="book_author">By Stephen King</h3>
+            </div>
+            <div class="book_text">
+              Powerful novel that takes you back to a nostalgic time, exploring
+              both the beauty and danger and loss of innocence that is youth.
+            </div>
+            <button class="book_buy_btn" name="book_buy">Buy</button>
+            <img
+              class="book_image"
+              src="./assets/king.png"
+              alt="book_king_picture"
+            />
+          </section>
+          <section class="book_description">
+            <span class="staff_picks">Staff Picks</span>
+            <span class="staff_picks__line">
+              <hr
+                class="book_line"
+                size="1px solid"
+                width="60px"
+                align="left"
+                color="#BB945F"
+              />
+            </span>
+            <div class="book_title_author">
+              <h3 class="book_title">
+                CARRY: A MEMOIR OF SURVIVAL ON STOLEN LAND
+              </h3>
+              <h3 class="book_author">By Tony Jenson</h3>
+            </div>
+            <div class="book_text">
+              This memoir about the author's relationship with gun violence
+              feels both expansive and intimate, resulting in a lyrical
+              indictment of the way things are.
+            </div>
+            <button class="book_buy_btn" name="book_buy">Buy</button>
+            <img class="book_image" src="./assets/carry.png" alt="book_carry" />
+          </section>
+          <section class="book_description">
+            <span class="staff_picks">Staff Picks</span>
+            <span class="staff_picks__line">
+              <hr
+                class="book_line"
+                size="1px solid"
+                width="60px"
+                align="left"
+                color="#BB945F"
+              />
+            </span>
+            <div class="book_title_author">
+              <h3 class="book_title">DAYS OF DISTRACTION</h3>
+              <h3 class="book_author">By Alexandra Chang</h3>
+            </div>
+            <div class="book_text">
+              A sardonic view of Silicon Valley culture, a meditation on race,
+              and a journal of displacement and belonging, all in one
+              form-defying package of spare prose.
+            </div>
+            <button class="book_buy_btn" name="book_buy">Buy</button>
+            <img class="book_image" src="./assets/chang.png" alt="book_chang" />
+          </section>
+          <section class="book_description">
+            <span class="staff_picks">Staff Picks</span>
+            <span class="staff_picks__line">
+              <hr
+                class="book_line"
+                size="1px solid"
+                width="60px"
+                align="left"
+                color="#BB945F"
+              />
+            </span>
+            <div class="book_title_author">
+              <h3 class="book_title">DOMINICANA</h3>
+              <h3 class="book_author">By Angie Cruz</h3>
+            </div>
+            <div class="book_text">
+              A fascinating story of a teenage girl who marries a man twice her
+              age with the promise to bring her to America. Her marriage is an
+              opportunity for her family to eventually immigrate. For fans of
+              Isabel Allende and Julia Alvarez.
+            </div>
+            <button class="book_buy_btn _own" name="book_buy" disabled>
+              Own
+            </button>
+            <img class="book_image" src="./assets/cruz.png" alt="book_cruz" />
+          </section>
+        </div>
+        <div class="books_section _invis">
+          <section class="book_description">
+            <span class="staff_picks">Staff Picks</span>
+            <span class="staff_picks__line">
+              <hr
+                class="book_line"
+                size="1px solid"
+                width="60px"
+                align="left"
+                color="#BB945F"
+              />
+            </span>
+            <div class="book_title_author">
+              <h3 class="book_title">CRUDE: A MEMOIR</h3>
+              <h3 class="book_author">
+                By Pablo Fajardo & Sophie Tardy-Joubert
+              </h3>
+            </div>
+            <div class="book_text">
+              Drawing and color by Damien Roudeau | This book illustrates the
+              struggles of a group of indigenous Ecuadoreans as they try to sue
+              the ChevronTexaco company for damage their oil fields did to the
+              Amazon and her people
+            </div>
+            <button class="book_buy_btn" name="book_buy">Buy</button>
+            <img
+              class="book_image"
+              src="./assets/crude.png"
+              alt="book_crude_picture"
+            />
+          </section>
+          <section class="book_description">
+            <span class="staff_picks">Staff Picks</span>
+            <span class="staff_picks__line">
+              <hr
+                class="book_line"
+                size="1px solid"
+                width="60px"
+                align="left"
+                color="#BB945F"
+              />
+            </span>
+            <div class="book_title_author">
+              <h3 class="book_title">LET MY PEOPLE GO SURFING</h3>
+              <h3 class="book_author">By Yvon Chouinard</h3>
+            </div>
+            <div class="book_text">
+              Chouinard—climber, businessman, environmentalist—shares tales of
+              courage and persistence from his experience of founding and
+              leading Patagonia, Inc. Full title: Let My People Go Surfing: The
+              Education of a Reluctant Businessman, Including 10 More Years of
+              Business Unusual.
+            </div>
+            <button class="book_buy_btn" name="book_buy">Buy</button>
+            <img class="book_image" src="./assets/let.png" alt="book_let" />
+          </section>
+          <section class="book_description">
+            <span class="staff_picks">Staff Picks</span>
+            <span class="staff_picks__line">
+              <hr
+                class="book_line"
+                size="1px solid"
+                width="60px"
+                align="left"
+                color="#BB945F"
+              />
+            </span>
+            <div class="book_title_author">
+              <h3 class="book_title">THE OCTOPUS MUSEUM: POEMS OF BRENDS</h3>
+              <h3 class="book_author">By Brenda Shaughnessy</h3>
+            </div>
+            <div class="book_text">
+              This collection of bold and scathingly beautiful feminist poems
+              imagines what comes after our current age of environmental
+              destruction, racism, sexism, and divisive politics.
+            </div>
+            <button class="book_buy_btn" name="book_buy">Buy</button>
+            <img
+              class="book_image"
+              src="./assets/octopus.png"
+              alt="book_octopus"
+            />
+          </section>
+          <section class="book_description">
+            <span class="staff_picks">Staff Picks</span>
+            <span class="staff_picks__line">
+              <hr
+                class="book_line"
+                size="1px solid"
+                width="60px"
+                align="left"
+                color="#BB945F"
+              />
+            </span>
+            <div class="book_title_author">
+              <h3 class="book_title">SHARK DIALOGUES: A NOVEL</h3>
+              <h3 class="book_author">By Kiana Davenport</h3>
+            </div>
+            <div class="book_text">
+              An epic saga of seven generations of one family encompasses the
+              tumultuous history of Hawaii as a Hawaiian woman gathers her four
+              granddaughters together in an erotic tale of villains and
+              dreamers, queens and revolutionaries, lepers and healers.
+            </div>
+            <button class="book_buy_btn _own" name="book_buy" disabled>
+              Own
+            </button>
+            <img class="book_image" src="./assets/shark.png" alt="book_shark" />
+          </section>
+        </div>
+        <div class="books_section _invis">
+          <section class="book_description">
+            <span class="staff_picks">Staff Picks</span>
+            <span class="staff_picks__line">
+              <hr
+                class="book_line"
+                size="1px solid"
+                width="60px"
+                align="left"
+                color="#BB945F"
+              />
+            </span>
+            <div class="book_title_author">
+              <h3 class="book_title">CASUAL CONVERSATION</h3>
+              <h3 class="book_author">By Renia White</h3>
+            </div>
+            <div class="book_text">
+              White's impressive debut collection takes readers through and
+              beyond the concepts of conversation and the casual - both what we
+              say to each other and what we don't, examining the possibilities
+              around how we construct and communicate identity.
+            </div>
+            <button class="book_buy_btn" name="book_buy">Buy</button>
+            <img
+              class="book_image"
+              src="./assets/casual.png"
+              alt="book_casual_picture"
+            />
+          </section>
+          <section class="book_description">
+            <span class="staff_picks">Staff Picks</span>
+            <span class="staff_picks__line">
+              <hr
+                class="book_line"
+                size="1px solid"
+                width="60px"
+                align="left"
+                color="#BB945F"
+              />
+            </span>
+            <div class="book_title_author">
+              <h3 class="book_title">THE GREAT FIRE</h3>
+              <h3 class="book_author">By Lou Ureneck</h3>
+            </div>
+            <div class="book_text">
+              The harrowing story of an ordinary American and a principled Naval
+              officer who, horrified by the burning of Smyrna, led an
+              extraordinary rescue effort that saved a quarter of a million
+              refugees from the Armenian Genocide
+            </div>
+            <button class="book_buy_btn" name="book_buy">Buy</button>
+            <img class="book_image" src="./assets/fire.png" alt="book_fire" />
+          </section>
+          <section class="book_description">
+            <span class="staff_picks">Staff Picks</span>
+            <span class="staff_picks__line">
+              <hr
+                class="book_line"
+                size="1px solid"
+                width="60px"
+                align="left"
+                color="#BB945F"
+              />
+            </span>
+            <div class="book_title_author">
+              <h3 class="book_title">RICKEY: THE LIFE AND LEGEND</h3>
+              <h3 class="book_author">By Howard Bryant</h3>
+            </div>
+            <div class="book_text">
+              With the fall rolling around, one can't help but think of
+              baseball's postseason coming up! And what better way to prepare
+              for it than reading the biography of one of the game's all-time
+              greatest performers, the Man of Steal, Rickey Henderson?
+            </div>
+            <button class="book_buy_btn" name="book_buy">Buy</button>
+            <img
+              class="book_image"
+              src="./assets/rickey.png"
+              alt="book_rickey"
+            />
+          </section>
+          <section class="book_description">
+            <span class="staff_picks">Staff Picks</span>
+            <span class="staff_picks__line">
+              <hr
+                class="book_line"
+                size="1px solid"
+                width="60px"
+                align="left"
+                color="#BB945F"
+              />
+            </span>
+            <div class="book_title_author">
+              <h3 class="book_title">SLUG: AND OTHER STORIES</h3>
+              <h3 class="book_author">By Megan Milks</h3>
+            </div>
+            <div class="book_text">
+              Exes Tegan and Sara find themselves chained together by hairballs
+              of codependency. A father and child experience the shared trauma
+              of giving birth to gods from their wounds.
+            </div>
+            <button class="book_buy_btn _own" name="book_buy" disabled>
+              Own
+            </button>
+            <img class="book_image" src="./assets/slug.png" alt="book_slug" />
+          </section>
+        </div>
       </div>
-      <div class="coffeeshop">
+      <div class="coffeeshop" id="coffee-shop">
         <h2 class="coffeeshop_title">Coffee Shop</h2>
         <div class="about__line"></div>
         <p class="coffeeshop_text">
@@ -366,8 +681,142 @@
           </div>
         </div>
       </div>
-      <div class="contacts"></div>
-      <div class="card"></div>
+      <div class="contacts" id="contacts">
+        <h2 class="contacts_title">Contacts</h2>
+        <div class="about__line"></div>
+        <div class="contacts_body">
+          <div class="contacts_info">
+            <div class="first_p">
+              <span class="bold_text">For all Library inquiries:</span>
+            </div>
+            <div class="contacts_text">
+              <span class="normal_text">
+                Please call <a href="tel:6177302370">(617) 730-2370</a></span
+              >
+            </div>
+            <div class="contacts_text">
+              <span class="normal_text"
+                >For TTY service, please call
+                <a href="tel:6177302370">(617) 730-2370</a></span
+              >
+            </div>
+            <div class="contacts_text">
+              <span class="normal_text"
+                >Putterham Library:
+                <a href="tel:6177302385">(617) 730-2385</a>
+              </span>
+            </div>
+
+            <div><span class="bold_text _second_p">Senior Staff </span></div>
+            <span class="normal_text">Library Director:</span>
+
+            <a class="bold_text" href="mailto:AmandaHirst@gmail.com"
+              >Amanda Hirst</a
+            >
+          </div>
+          <div class="map">
+            <img src="/assets/map.png" alt="map_picture" />
+          </div>
+        </div>
+      </div>
+      <div class="card" id="library-card">
+        <h2 class="contacts_title">Digital Library Cards</h2>
+        <div class="about__line _digital"></div>
+        <div class="cards_flex">
+          <div class="card_body">
+            <span class="find_card_text">Find your Library Card</span>
+            <div class="card_border">
+              <div class="card_text">
+                Brooklyn Public Library
+                <div>
+                  <input
+                    class="input_text _name"
+                    type="text"
+                    id="readername"
+                    name="name"
+                    placeholder="Reader's name"
+                  />
+                </div>
+                <div>
+                  <input
+                    class="input_text _id"
+                    type="text"
+                    id="idcard"
+                    name="name"
+                    placeholder="Card number"
+                  />
+                </div>
+              </div>
+              <button class="card_button" type="button">Check the card</button>
+            </div>
+          </div>
+          <div class="reader_card">
+            <div class="reader_card_title">Get a reader card</div>
+            <div class="reader_card_text">
+              You will be able to see a reader card after logging into account
+              or you can register a new account
+            </div>
+            <div class="cardbuttons">
+              <button class="cardbutton _signup" type="button">Sign Up</button>
+              <button class="cardbutton _login" type="button">Log in</button>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+      <footer class="footer">
+        <div class="footer_address">
+          <div class="address_text">
+            <a
+              class="_git"
+              href="https://goo.gl/maps/pEXmNvFMGyBMwVT47"
+              target="_blank"
+            >
+              286 Cadman Plaza, New York, NY 11238, United States
+            </a>
+          </div>
+          <div class="address_workinghours">
+            Mon - Fri <br />
+            08:00 am - 07:00 pm
+          </div>
+        </div>
+        <div class="footer_icons">
+          <div class="icons">
+            <a href="https://twitter.com" target="_blank">
+              <img src="./svg/twitter.svg" alt="twitter_link" />
+            </a>
+            <a href="https://www.instagram.com/drop_the_dead/" target="_blank">
+              <img src="./svg/instagram.svg" alt="instagram_link" />
+            </a>
+
+            <a href="https://facebook.com" target="_blank"
+              ><img src="./svg/facebook.svg" alt="facebook_link"
+            /></a>
+          </div>
+          <div class="address_workinghours">
+            Sat - Sun <br />
+            10:00 am - 06:00 pm
+          </div>
+        </div>
+        <div class="icons_line"></div>
+        <div class="footer_last">
+          <div class="footer_last_text">2023</div>
+          <div class="footer_last_text">
+            <a class="_git" href="https://rs.school/js-stage0/" target="_blank"
+              >The Rolling Scopes School</a
+            >
+          </div>
+          <div class="footer_last_text">
+            <a
+              class="_git"
+              href="https://github.com/dropthedead"
+              target="_blank"
+              >dropdead</a
+            >
+          </div>
+        </div>
+      </footer>
     </div>
+    <script src="./index.js"></script>
   </body>
 </html>
