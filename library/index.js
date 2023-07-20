@@ -5,7 +5,7 @@ document.querySelector(".input_text._id").addEventListener("keyup", function(){
     this.value = this.value.replace(/[^[a-zA-Z \d -]/g, "");
 });
 const anchors = [].slice.call(document.querySelectorAll('a[href*="#"]')),
-      animationTime = 300,
+      animationTime = 700,
       framesCount = 20;
 
 anchors.forEach(function(item) {
