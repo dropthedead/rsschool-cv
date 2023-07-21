@@ -26,3 +26,4 @@ links.forEach((link) => {
     scrollToLink(link);
   });
 });
+console.log("1. +10 /n 2. +16 /n 3. +54 /n 4. +20 /n total=100 :)");
