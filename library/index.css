@@ -273,6 +273,12 @@ h3 {
   line-height: 40px; /* 266.667% */
   letter-spacing: 2px;
 }
+.book_line {
+  border: none;
+  height: 1px;
+  width: 60px;
+  background-color: #bb945f;
+}
 .book_buy_btn {
   margin-top: 15px;
   margin-left: 20px;
