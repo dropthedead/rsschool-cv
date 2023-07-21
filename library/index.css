@@ -3,10 +3,8 @@
   padding: 0;
   margin: 0;
 }
-@media screen and (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: smooth;
-  }
+html {
+  scroll-behavior: smooth;
 }
 body {
   max-width: 1440px;
@@ -169,7 +167,6 @@ body {
   line-height: normal;
   padding-top: 40px;
   text-align: left;
-  padding-left: 20px;
   margin-bottom: 40px;
 }
 .favorite_btn {
@@ -503,6 +500,8 @@ a {
 }
 .input_text {
   all: unset;
+  display: block;
+  box-sizing: border-box;
   border-radius: 10px;
   background: #fff;
   color: #8e8e8e;
@@ -513,6 +512,7 @@ a {
   line-height: 50px; /* 166.667% */
   letter-spacing: 0.6px;
   margin-top: 10px;
+  padding-left: 20px;
   width: 100%;
 }
 .cardbuttons {
@@ -553,7 +553,6 @@ a {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.6px;
-  margin-right: 20px;
   margin-bottom: 35px;
 }
 .reader_card_text {
