@@ -6,6 +6,9 @@
 * **Telegram:** @drpdd
 * **Discord:** dropdead88
 
+
+
+
 ## About myself
 I started my career as Marine Engineer, worked in there for over 6 years, travelling across the whole world
 on different vessels with different nations and people, which helped a lot with english skill and made me strong
@@ -23,7 +26,8 @@ Nowadays I have decided that programming is my way.
 
 ## Code example
 **Task from CODEWARS. Square sum of Array elements**
-```
+
+```javascript
 function squareSum(numbers){
   let sum = 0;
 for (let i = 0; i < numbers.length; i++) {
@@ -35,6 +39,7 @@ console.log(squareSum([1,2]));
 ```
 
 ## Courses
+RS School stage 0 done 
 Learning basic theory books in progress (like https://learn.javascript.ru/)
 
 ## Languages
