@@ -107,6 +107,7 @@ i {
   height: 20%;
   width: 20%;
   border-radius: 16%;
+  position: relative;
 }
 .spisok li {
   margin-bottom: 10px;
